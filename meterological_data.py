@@ -106,7 +106,7 @@ weather_data
 # weather_data['Formatted Date'] = pd.to_datetime(weather_data['Formatted Date'])
 weather = weather_data['Summary'].value_counts().reset_index()
 weather.columns = ['Weather', 'Count']
-weather
+print(weather)
 
 
 # In[ ]:
